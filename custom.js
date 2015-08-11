@@ -23,8 +23,8 @@ $(document).ready(function(){
 	});
 
 	$("#menu").click(function(){
-   		$("#moremenu").slideDown("");
-  		$('body').addClass('bdgimg');
+   		$("#moremenu").slideToggle("slow");
+  		$("body").addClass("container");
   	});
 
 
@@ -32,6 +32,6 @@ $(document).ready(function(){
 
 
 	
-
+	//$('body').addClass('bdgimg');
 
 
