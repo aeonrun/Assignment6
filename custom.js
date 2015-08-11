@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+
 
 	$(this).click(function(){
 
@@ -20,5 +22,16 @@ $(document).ready(function(){
 
 	});
 
+	$("#menu").click(function(){
+   		$("#moremenu").slideDown("");
+  		$('body').addClass('bdgimg');
+  	});
+
 
 });
+
+
+	
+
+
+
